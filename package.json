@@ -1,0 +1,31 @@
+{
+  "name": "mvdparser",
+  "version": "0.1.0",
+  "description": "Extract information from QuakeWorld MVD demos.",
+  "author": "Viktor Persson",
+  "license": "MIT",
+  "repository": "github:vikpe/mvdparser-js",
+  "type": "module",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "exports": "./index.ts",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "format": "biome check --write src tests/*.ts",
+    "lint": "biome lint src tests",
+    "test": "vitest run --coverage",
+    "test:watch": "vitest --watch --coverage"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.8.1",
+    "@types/node": "^20.14.5",
+    "@vitest/coverage-v8": "^1.6.0",
+    "jsdom": "^24.1.0",
+    "typescript": "^5.4.5",
+    "vite": "^5.3.1",
+    "vitest": "^1.6.0"
+  },
+  "dependencies": {}
+}
