@@ -1,4 +1,4 @@
-# mvdparser-js
+# mvdparser-js [![Test](https://github.com/vikpe/mvdparser-js/actions/workflows/test.yml/badge.svg)](https://github.com/vikpe/mvdparser-js/actions/workflows/test.yml)
 > Extract information from QuakeWorld MVD demos.
 
 ```ts
