@@ -4,7 +4,10 @@
   "description": "Extract information from QuakeWorld MVD demos.",
   "author": "Viktor Persson",
   "license": "MIT",
-  "repository": "github:vikpe/mvdparser-js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vikpe/mvdparser-js.git"
+  },
   "type": "module",
   "engines": {
     "node": ">=20.0.0"
