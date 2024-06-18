@@ -15,12 +15,15 @@
   "files": [
     "src/index.ts"
   ],
-  "exports": "./index.ts",
+  "exports": {
+    "types": "./index.d.ts",
+    "default": "./index.ts"
+  },
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "format": "biome check --write src tests/*.ts",
-    "lint": "biome lint src tests",
+    "format": "biome check --write index.ts index.test.ts",
+    "lint": "biome lint index.ts index.test.ts",
     "test": "vitest run --coverage",
     "test:watch": "vitest --watch --coverage"
   },
